@@ -1,0 +1,871 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:ex="http://example.org/ontology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/ontology#hasComponent -->
+
+    <ObjectProperty rdf:about="http://example.org/ontology#hasComponent"/>
+    
+
+
+    <!-- http://example.org/ontology#isEnforcedBy -->
+
+    <ObjectProperty rdf:about="http://example.org/ontology#isEnforcedBy"/>
+    
+
+
+    <!-- http://example.org/ontology#isPartOf -->
+
+    <ObjectProperty rdf:about="http://example.org/ontology#isPartOf"/>
+    
+
+
+    <!-- http://example.org/ontology#isPromotedBy -->
+
+    <ObjectProperty rdf:about="http://example.org/ontology#isPromotedBy"/>
+    
+
+
+    <!-- http://example.org/ontology#isProtectedBy -->
+
+    <ObjectProperty rdf:about="http://example.org/ontology#isProtectedBy"/>
+    
+
+
+    <!-- http://example.org/ontology#isRecognizedBy -->
+
+    <ObjectProperty rdf:about="http://example.org/ontology#isRecognizedBy"/>
+    
+
+
+    <!-- http://example.org/ontology#isViolatedBy -->
+
+    <ObjectProperty rdf:about="http://example.org/ontology#isViolatedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/ontology#articleNumber -->
+
+    <DatatypeProperty rdf:about="http://example.org/ontology#articleNumber"/>
+    
+
+
+    <!-- http://example.org/ontology#dateAdopted -->
+
+    <DatatypeProperty rdf:about="http://example.org/ontology#dateAdopted"/>
+    
+
+
+    <!-- http://example.org/ontology#description -->
+
+    <DatatypeProperty rdf:about="http://example.org/ontology#description"/>
+    
+
+
+    <!-- http://example.org/ontology#examples -->
+
+    <DatatypeProperty rdf:about="http://example.org/ontology#examples"/>
+    
+
+
+    <!-- http://example.org/ontology#legalDocuments -->
+
+    <DatatypeProperty rdf:about="http://example.org/ontology#legalDocuments"/>
+    
+
+
+    <!-- http://example.org/ontology#origin -->
+
+    <DatatypeProperty rdf:about="http://example.org/ontology#origin"/>
+    
+
+
+    <!-- http://example.org/ontology#relatedCases -->
+
+    <DatatypeProperty rdf:about="http://example.org/ontology#relatedCases"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/ontology#AccessToEducation -->
+
+    <Class rdf:about="http://example.org/ontology#AccessToEducation">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsToSocialProvisions"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#AccessToHealthcare -->
+
+    <Class rdf:about="http://example.org/ontology#AccessToHealthcare">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsToSocialProvisions"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#ActiveSuffrage -->
+
+    <Class rdf:about="http://example.org/ontology#ActiveSuffrage">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsOfPoliticalParticipation"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#CivicEngagementRights -->
+
+    <Class rdf:about="http://example.org/ontology#CivicEngagementRights">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsOfPoliticalParticipation"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#ConstitutionalRights -->
+
+    <Class rdf:about="http://example.org/ontology#ConstitutionalRights"/>
+    
+
+
+    <!-- http://example.org/ontology#DemocraticElections -->
+
+    <Class rdf:about="http://example.org/ontology#DemocraticElections">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ActiveSuffrage"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#EconomicalRights -->
+
+    <Class rdf:about="http://example.org/ontology#EconomicalRights"/>
+    
+
+
+    <!-- http://example.org/ontology#EnvironmentalInformationTransparency -->
+
+    <Class rdf:about="http://example.org/ontology#EnvironmentalInformationTransparency">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToSustainableDevelopment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#ExclusiveRightsOfPatent -->
+
+    <Class rdf:about="http://example.org/ontology#ExclusiveRightsOfPatent">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ExclusiveRightsOverIndustrialCreations"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#ExclusiveRightsOverIndustrialCreations -->
+
+    <Class rdf:about="http://example.org/ontology#ExclusiveRightsOverIndustrialCreations">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToOwnProperty"/>
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsToCulturalHeritage"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#FreedomOfExpression -->
+
+    <Class rdf:about="http://example.org/ontology#FreedomOfExpression">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#LibertyOfExpression"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#FreedomOfPress -->
+
+    <Class rdf:about="http://example.org/ontology#FreedomOfPress">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#LibertyOfExpression"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#FreedomOfProtest -->
+
+    <Class rdf:about="http://example.org/ontology#FreedomOfProtest">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToPublicDemonstration"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#FreedomOfPublicGatherings -->
+
+    <Class rdf:about="http://example.org/ontology#FreedomOfPublicGatherings">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToPublicDemonstration"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#FreedomToMarry -->
+
+    <Class rdf:about="http://example.org/ontology#FreedomToMarry">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ProtectionOfFamilyUnity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#HumanDignity -->
+
+    <Class rdf:about="http://example.org/ontology#HumanDignity">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ConstitutionalRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#HumanRights -->
+
+    <Class rdf:about="http://example.org/ontology#HumanRights"/>
+    
+
+
+    <!-- http://example.org/ontology#ImpartialJustice -->
+
+    <Class rdf:about="http://example.org/ontology#ImpartialJustice">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ConstitutionalRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#InclusiveSuffrage -->
+
+    <Class rdf:about="http://example.org/ontology#InclusiveSuffrage">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ActiveSuffrage"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#InnocentUntilProvenGuilty -->
+
+    <Class rdf:about="http://example.org/ontology#InnocentUntilProvenGuilty">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ImpartialJustice"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#InviolabilityOfPrivateLife -->
+
+    <Class rdf:about="http://example.org/ontology#InviolabilityOfPrivateLife">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ConstitutionalRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#LibertyOfExpression -->
+
+    <Class rdf:about="http://example.org/ontology#LibertyOfExpression">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ConstitutionalRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#PersonalDataProtectionRights -->
+
+    <Class rdf:about="http://example.org/ontology#PersonalDataProtectionRights">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#InviolabilityOfPrivateLife"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#ProhibitionOfUnlawfulEviction -->
+
+    <Class rdf:about="http://example.org/ontology#ProhibitionOfUnlawfulEviction">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToSocialAndHousingAssistance"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#ProtectionFromUnlawfulKilling -->
+
+    <Class rdf:about="http://example.org/ontology#ProtectionFromUnlawfulKilling">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#HumanDignity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#ProtectionOfFamilyUnity -->
+
+    <Class rdf:about="http://example.org/ontology#ProtectionOfFamilyUnity">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsToSocialProvisions"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToAHazardFreeEnvironment -->
+
+    <Class rdf:about="http://example.org/ontology#RightToAHazardFreeEnvironment">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToAHealthyEnvironment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToAHealthyAndSafeWorkplace -->
+
+    <Class rdf:about="http://example.org/ontology#RightToAHealthyAndSafeWorkplace">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToEmployment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToAHealthyEnvironment -->
+
+    <Class rdf:about="http://example.org/ontology#RightToAHealthyEnvironment"/>
+    
+
+
+    <!-- http://example.org/ontology#RightToAToxicFreeEnvironment -->
+
+    <Class rdf:about="http://example.org/ontology#RightToAToxicFreeEnvironment">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToAHazardFreeEnvironment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToAccessScientificKnowledgeAndAdvances -->
+
+    <Class rdf:about="http://example.org/ontology#RightToAccessScientificKnowledgeAndAdvances">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsToCulturalHeritage"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToAppropriateHousing -->
+
+    <Class rdf:about="http://example.org/ontology#RightToAppropriateHousing">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToSocialAndHousingAssistance"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToBenefitFromCulturalHeritage -->
+
+    <Class rdf:about="http://example.org/ontology#RightToBenefitFromCulturalHeritage">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToCulturalParticipationAndExpression"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToCivicEngagement -->
+
+    <Class rdf:about="http://example.org/ontology#RightToCivicEngagement">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#CivicEngagementRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToCleanEnvironment -->
+
+    <Class rdf:about="http://example.org/ontology#RightToCleanEnvironment">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToAHealthyEnvironment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToContestElections -->
+
+    <Class rdf:about="http://example.org/ontology#RightToContestElections">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#CivicEngagementRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToCulturalParticipationAndExpression -->
+
+    <Class rdf:about="http://example.org/ontology#RightToCulturalParticipationAndExpression">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsToCulturalHeritage"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToCulturalRecognition -->
+
+    <Class rdf:about="http://example.org/ontology#RightToCulturalRecognition">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsToCulturalHeritage"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToDecentPay -->
+
+    <Class rdf:about="http://example.org/ontology#RightToDecentPay">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToEmployment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToElementaryEducation -->
+
+    <Class rdf:about="http://example.org/ontology#RightToElementaryEducation">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#AccessToEducation"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToEmployment -->
+
+    <Class rdf:about="http://example.org/ontology#RightToEmployment">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#EconomicalRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToEnvironmentalConsultation -->
+
+    <Class rdf:about="http://example.org/ontology#RightToEnvironmentalConsultation">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToSustainableDevelopment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToEnvironmentalLiabilityEnforcement -->
+
+    <Class rdf:about="http://example.org/ontology#RightToEnvironmentalLiabilityEnforcement">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToAHazardFreeEnvironment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToExclusiveUseOfCopyright -->
+
+    <Class rdf:about="http://example.org/ontology#RightToExclusiveUseOfCopyright">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ExclusiveRightsOverIndustrialCreations"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToFairAndSafeWorkingConditions -->
+
+    <Class rdf:about="http://example.org/ontology#RightToFairAndSafeWorkingConditions">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#EconomicalRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToHealthPromotionAndPrevention -->
+
+    <Class rdf:about="http://example.org/ontology#RightToHealthPromotionAndPrevention">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#AccessToHealthcare"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToHealthProtection -->
+
+    <Class rdf:about="http://example.org/ontology#RightToHealthProtection">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#AccessToHealthcare"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToHealthyAir -->
+
+    <Class rdf:about="http://example.org/ontology#RightToHealthyAir">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToCleanEnvironment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToIntermediateEducation -->
+
+    <Class rdf:about="http://example.org/ontology#RightToIntermediateEducation">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#AccessToEducation"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToJoinUnions -->
+
+    <Class rdf:about="http://example.org/ontology#RightToJoinUnions">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToOrganize"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToLegalAssistance -->
+
+    <Class rdf:about="http://example.org/ontology#RightToLegalAssistance">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ImpartialJustice"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToLinguisticIdentity -->
+
+    <Class rdf:about="http://example.org/ontology#RightToLinguisticIdentity">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToCulturalRecognition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToMaintainCulturalDistinctiveness -->
+
+    <Class rdf:about="http://example.org/ontology#RightToMaintainCulturalDistinctiveness">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToCulturalParticipationAndExpression"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToMaternityAndPaternityLeave -->
+
+    <Class rdf:about="http://example.org/ontology#RightToMaternityAndPaternityLeave">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#ProtectionOfFamilyUnity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToNonDiscriminatoryPay -->
+
+    <Class rdf:about="http://example.org/ontology#RightToNonDiscriminatoryPay">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToFairAndSafeWorkingConditions"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToOrganize -->
+
+    <Class rdf:about="http://example.org/ontology#RightToOrganize">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsOfPoliticalParticipation"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToOwnProperty -->
+
+    <Class rdf:about="http://example.org/ontology#RightToOwnProperty">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#EconomicalRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToPersonalSafety -->
+
+    <Class rdf:about="http://example.org/ontology#RightToPersonalSafety">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#HumanDignity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToPoliticalAssociation -->
+
+    <Class rdf:about="http://example.org/ontology#RightToPoliticalAssociation">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToOrganize"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToPracticeCulture -->
+
+    <Class rdf:about="http://example.org/ontology#RightToPracticeCulture">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToCulturalRecognition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToPrivacy -->
+
+    <Class rdf:about="http://example.org/ontology#RightToPrivacy">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#InviolabilityOfPrivateLife"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToPrivateProperty -->
+
+    <Class rdf:about="http://example.org/ontology#RightToPrivateProperty">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToOwnProperty"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToPublicDemonstration -->
+
+    <Class rdf:about="http://example.org/ontology#RightToPublicDemonstration">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsOfPoliticalParticipation"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToRetirementBenefits -->
+
+    <Class rdf:about="http://example.org/ontology#RightToRetirementBenefits">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToSocialSecurity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToSafeWater -->
+
+    <Class rdf:about="http://example.org/ontology#RightToSafeWater">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToCleanEnvironment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToScientificInformation -->
+
+    <Class rdf:about="http://example.org/ontology#RightToScientificInformation">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToAccessScientificKnowledgeAndAdvances"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToShareInScientificProgress -->
+
+    <Class rdf:about="http://example.org/ontology#RightToShareInScientificProgress">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToAccessScientificKnowledgeAndAdvances"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToSocialAndHousingAssistance -->
+
+    <Class rdf:about="http://example.org/ontology#RightToSocialAndHousingAssistance">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightsToSocialProvisions"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToSocialAssistanceForDisability -->
+
+    <Class rdf:about="http://example.org/ontology#RightToSocialAssistanceForDisability">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToSocialSecurity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToSocialSecurity -->
+
+    <Class rdf:about="http://example.org/ontology#RightToSocialSecurity">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#EconomicalRights"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToSustainableDevelopment -->
+
+    <Class rdf:about="http://example.org/ontology#RightToSustainableDevelopment">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToAHealthyEnvironment"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightToWorkLifeBalance -->
+
+    <Class rdf:about="http://example.org/ontology#RightToWorkLifeBalance">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#RightToFairAndSafeWorkingConditions"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#RightsOfPoliticalParticipation -->
+
+    <Class rdf:about="http://example.org/ontology#RightsOfPoliticalParticipation"/>
+    
+
+
+    <!-- http://example.org/ontology#RightsToCulturalHeritage -->
+
+    <Class rdf:about="http://example.org/ontology#RightsToCulturalHeritage"/>
+    
+
+
+    <!-- http://example.org/ontology#RightsToSocialProvisions -->
+
+    <Class rdf:about="http://example.org/ontology#RightsToSocialProvisions"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/ontology#Article1 -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#Article1">
+        <rdf:type rdf:resource="http://example.org/ontology#HumanRights"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ex:articleNumber>
+        <ex:description>All human beings are born free and equal in dignity and rights.</ex:description>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#FreedomOfSpeechInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#FreedomOfSpeechInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#LibertyOfExpression"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ex:articleNumber>
+        <ex:description>The right to express opinions without censorship or restraint.</ex:description>
+        <ex:examples>Free press, public debates.</ex:examples>
+        <ex:legalDocuments>ICCPR, First Amendment to the U.S. Constitution.</ex:legalDocuments>
+        <ex:origin>Enlightenment principles of free thought.</ex:origin>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#RightToCleanEnvironmentInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#RightToCleanEnvironmentInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#RightToCleanEnvironment"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ex:articleNumber>
+        <ex:description>The right to live in a clean and healthy environment.</ex:description>
+        <ex:examples>Clean air, clean water.</ex:examples>
+        <ex:legalDocuments>Various environmental protection laws.</ex:legalDocuments>
+        <ex:origin>Environmental justice movements.</ex:origin>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#RightToEducationInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#RightToEducationInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#AccessToEducation"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ex:articleNumber>
+        <ex:description>The right to access education.</ex:description>
+        <ex:examples>Universal primary education.</ex:examples>
+        <ex:legalDocuments>Convention on the Rights of the Child (CRC).</ex:legalDocuments>
+        <ex:origin>Enlightenment and progressive education movements.</ex:origin>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#RightToFairTrialInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#RightToFairTrialInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#ImpartialJustice"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:articleNumber>
+        <ex:description>The right to a fair and public hearing by an independent and impartial tribunal.</ex:description>
+        <ex:examples>Right to legal representation, presumption of innocence.</ex:examples>
+        <ex:legalDocuments>ICCPR, European Convention on Human Rights.</ex:legalDocuments>
+        <ex:origin>Historical struggles for justice.</ex:origin>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#RightToHealthcareInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#RightToHealthcareInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#AccessToHealthcare"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ex:articleNumber>
+        <ex:description>The right to access healthcare services.</ex:description>
+        <ex:examples>Universal healthcare systems, preventive healthcare.</ex:examples>
+        <ex:legalDocuments>International Covenant on Economic, Social and Cultural Rights (ICESCR).</ex:legalDocuments>
+        <ex:origin>Public health and social welfare principles.</ex:origin>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#RightToLifeInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#RightToLifeInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#HumanDignity"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:articleNumber>
+        <ex:description>The right to life and security.</ex:description>
+        <ex:examples>Protection against arbitrary killing.</ex:examples>
+        <ex:legalDocuments>International Covenant on Civil and Political Rights (ICCPR).</ex:legalDocuments>
+        <ex:origin>Natural law traditions.</ex:origin>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#RightToOwnPropertyInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#RightToOwnPropertyInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#RightToOwnProperty"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ex:articleNumber>
+        <ex:description>The right to acquire, own, and dispose of property.</ex:description>
+        <ex:examples>Land ownership, intellectual property.</ex:examples>
+        <ex:legalDocuments>National property laws.</ex:legalDocuments>
+        <ex:origin>Legal traditions of property rights.</ex:origin>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#RightToParticipateInCulturalLifeInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#RightToParticipateInCulturalLifeInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#RightToCulturalParticipationAndExpression"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ex:articleNumber>
+        <ex:description>The right to freely participate in cultural activities.</ex:description>
+        <ex:examples>Cultural festivals, arts participation.</ex:examples>
+        <ex:legalDocuments>UNESCO conventions.</ex:legalDocuments>
+        <ex:origin>Cultural heritage and human dignity principles.</ex:origin>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#RightToVoteInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#RightToVoteInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#ActiveSuffrage"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ex:articleNumber>
+        <ex:description>The right to participate in free and fair elections.</ex:description>
+        <ex:examples>Universal suffrage, secret ballot.</ex:examples>
+        <ex:legalDocuments>ICCPR, various national constitutions.</ex:legalDocuments>
+        <ex:origin>Democratic governance principles.</ex:origin>
+    </NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#RightToWorkInstance -->
+
+    <NamedIndividual rdf:about="http://example.org/ontology#RightToWorkInstance">
+        <rdf:type rdf:resource="http://example.org/ontology#RightToEmployment"/>
+        <ex:articleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ex:articleNumber>
+        <ex:description>The right to pursue work and to receive fair wages.</ex:description>
+        <ex:examples>Fair labor standards, right to safe working conditions.</ex:examples>
+        <ex:legalDocuments>International Labour Organization (ILO) conventions.</ex:legalDocuments>
+        <ex:origin>Labor movements and social justice principles.</ex:origin>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
